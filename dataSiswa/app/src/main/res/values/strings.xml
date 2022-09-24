@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">dataSiswa</string>
+    <string name="delete">Hapus Data</string>
+    <string name="delete_text">Apakah Anda yakin Menghapus Data Ini</string>
+    <string name="yes">Iya</string>
+    <string name="cancel">Batal</string>
+    <string name="update">Ubah</string>
+    <string name="update_title">Ubah Data</string>
+    <string name="update_text">Yakin ingin Mengubah Data?</string>
+</resources>

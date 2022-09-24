@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Update student"
+        app:titleCentered="true"
+        app:navigationIconTint="?colorControlNormal"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_text"
+        android:text="Falah"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/age_text"
+        android:text="16 tahun"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ttl_text"
+        android:text="5 juli 2005"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_text"
+        android:text="Jalan cimandiri"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNumber_text"
+        android:text="08123456789"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+</LinearLayout>
